@@ -12,8 +12,8 @@ components:
           targetPort: 3000
       memoryLimit: '1Gi'
       memoryRequest: '512Mi'
-      cpuLimit: '500m'
-      cpuRequest: '250m'
+      cpuLimit: '0.5'
+      cpuRequest: '0.25'
       mountSources: true
       volumeMounts:
         - name: npm
